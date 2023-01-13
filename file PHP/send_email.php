@@ -60,7 +60,7 @@ if($result = $connessione -> query($query)){
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'petsfood.email.service@gmail.com';
-                $mail->Password = 'sqcbmthwxmbnq';
+                $mail->Password = 'xxxxxxxxxxxx';
                 $mail->SMTPSecure = 'tls';
                 $mail->Port = 587;
             
