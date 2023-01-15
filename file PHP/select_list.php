@@ -14,7 +14,7 @@ if($connessione === false){
 
 $id = $connessione -> real_escape_string($_POST['id']);
 
-$query_select= "SELECT * FROM login_user WHERE id=$id";
+$queryselect= "SELECT * FROM login_user WHERE id=$id";
 
 if($result = $connessione->query($query_select)){
 
